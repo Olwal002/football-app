@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+.btn-secondary{
+background: none;
+border: none;
+color: rgb(183, 211, 223);
+}
+.btn-secondary:hover{
+background: none;
+border: none;
+}
+.container{
+margin: 15px auto;
+border-radius: 4px;
+border: 1px solid rgb(216, 206, 206);
+background-color: blanchedalmond;
+
+}
+.image-logo{
+/* background-image:url(/src/images/zi.jpeg); */
+height: 200px;
+width: 200px;
+background: url("../src/images/ft.jpeg");
+background-position: 0 100;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.image-lg{
+/* background-image:url(/src/images/zi.jpeg); */
+height: 200px;
+width: 200px;
+background: url("../src/images/pm.jpeg");
+background-position: 0 100;
+}
+
+.image-lv{
+/* background-image:url(/src/images/zi.jpeg); */
+height: 200px;
+width: 200px;
+background: url("../src/images/gd.jpeg");
+background-position: 0 100;
+}
+.header{
+color:beige;
 }
