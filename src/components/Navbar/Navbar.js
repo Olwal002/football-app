@@ -20,10 +20,14 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md navbar-dark bg-info">
       <div className="container-fluid">
         <a href="/#" className="navbar-brand">
-         
+          <h2 className="header">KISUMU COUNTY FOOTBALL ASSOCIATION</h2>
         </a>
         <ul className="navbar-nav ml-auto">
-           <h2 className="header">KISUMU COUNTY FOOTBALL ASSOCIATION</h2>
+        {/* <li className="nav-item">
+            <a className="nav-link" href="/home">
+              Home
+            </a>
+          </li> */}
            <li className="nav-item">
           <Dropdown style={{background:"transparent !important"}} isOpen={AboutOpen} toggle={AboutToggle}>
                 <DropdownToggle caret>About</DropdownToggle>
