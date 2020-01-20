@@ -33,12 +33,12 @@ function Home() {
 
       <br />
 
-      <nav>
+      {/* <nav>
         <a className="img" aria-current="page" href="/TableStandings">
           Table Standings
-          <img className="img" src="/public/images/nj.png" alt="Table"/>g
+          <img className="img" src="/public/images/nj.png" alt="Table"/>
         </a>
-      </nav>
+      </nav> */}
     </div>
   );
 }
